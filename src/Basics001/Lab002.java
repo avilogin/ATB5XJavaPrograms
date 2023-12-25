@@ -16,7 +16,7 @@ public class Lab002 {
         short sh1 = 32767;
         int in = -2147483648;
         int in2 = 2147483647;
-        long lg = 1234567890;
+        long lg = 1234567890l;
         float fl = 2.5f;
         double db = 2.555555555555555555555555555555;
 
@@ -33,6 +33,7 @@ public class Lab002 {
         System.out.println(lg);
         System.out.println(fl);
         System.out.println(db);
+        System.out.println();
 
 
 
