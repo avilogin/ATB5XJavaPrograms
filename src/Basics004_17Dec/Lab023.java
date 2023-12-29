@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Lab023 {
     public static void main(String[] args) {
 
-        //Check whether the provided alphabet is vowel or not
+        //Check whether the provided String starts with vowel or consonant
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please provide an alphabet");
+        System.out.println("Please provide a string and i will check whether it starts with Vowel or a Consonant");
          char alpha = sc.next().toCharArray()[0];
 
          switch (alpha){
