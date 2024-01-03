@@ -24,10 +24,10 @@ public class Lab007 {
 
         //  And  &&
 
-        // T || T -> T
-        // T || F -> F
-        // F || T -> F
-        // F || F -> F
+        // T && T -> T
+        // T && F -> F
+        // F && T -> F
+        // F && F -> F
 
         System.out.println(true && true);
         System.out.println(true && false);
