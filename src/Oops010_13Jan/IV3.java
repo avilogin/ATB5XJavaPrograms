@@ -1,0 +1,16 @@
+package src.Oops010_13Jan;
+
+public class IV3 {
+    public static void main(String[] args) {
+        P03 h=null;
+        P03 h2=new P03();
+        //System.out.println(h.a); not possible as the object is not created
+        System.out.println(h2.a);
+    }
+}
+
+class P03 {
+    int a;
+
+
+}
