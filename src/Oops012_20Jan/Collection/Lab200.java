@@ -13,6 +13,7 @@ public class Lab200 {
         myList.add(112300);
         myList.add(true);
         myList.add(22.5);
+        myList.get(2);
         System.out.println(myList);
 
         myList.set(1,22);//changes the value according to the index number
@@ -31,7 +32,7 @@ public class Lab200 {
 
 
         //Enhanced For loop
-        for (Object o : myList)
+        for (Object o : myList)//using Object as datatype because the values are of different data types
         {
             System.out.println(o);
         }

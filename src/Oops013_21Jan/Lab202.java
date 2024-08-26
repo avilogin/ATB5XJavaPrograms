@@ -21,7 +21,7 @@ public class Lab202 {
         ListIterator lt = li.listIterator();
         while (lt.hasNext())
         {
-            //lt.add("Deba"); Modification are allowed in case of listIterator
+            //lt.add("Deba"); Modification are allowed in case of listIterator but not recommended
             System.out.println(lt.next());
         }
 
