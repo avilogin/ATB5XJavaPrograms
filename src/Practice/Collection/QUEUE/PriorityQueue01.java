@@ -1,4 +1,4 @@
-package src.Practice.Collection;
+package src.Practice.Collection.QUEUE;
 
 import java.util.Iterator;
 import java.util.PriorityQueue;

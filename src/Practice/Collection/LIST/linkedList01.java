@@ -1,4 +1,4 @@
-package src.Practice.Collection;
+package src.Practice.Collection.LIST;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -21,12 +21,12 @@ public class linkedList01 {
 
         List link = new LinkedList();
         link.add("-----ADDING----");
-        link.add("Avijeet");
-        link.add(12345);
-        link.add(22.56);
-        link.add(true);
-        link.add("c");
-        link.add(234.657845656);
+        link.add("jana");
+        link.add(67890);
+        link.add(22.99);
+        link.add(false);
+        link.add("d");
+        link.add(235.56367567356);
 
 
 
