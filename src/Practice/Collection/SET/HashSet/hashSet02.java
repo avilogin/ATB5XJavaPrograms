@@ -35,6 +35,7 @@ public class hashSet02 {
         name3.add("Varun");
         name3.add("Chinmoy");
         name3.add("");
+        //name3.add(null); null not allowed for TreeSet
         System.out.println(name3);
     }
 }

@@ -1,8 +1,9 @@
 package src.Oops010_13Jan.Poly.methodOverriding;
 
-public class Dog {
+public class Dog extends animal{
 
     void bark(){
-        System.out.println("I am Dog, i will Bark!!");
+        super.bark();
+        System.out.println("Parent Class--- I am Dog, i will Bark!!");
     }
 }

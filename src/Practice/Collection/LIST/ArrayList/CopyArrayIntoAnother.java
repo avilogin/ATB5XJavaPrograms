@@ -20,7 +20,7 @@ public class CopyArrayIntoAnother {
         l.add("gray");
         l.add("green");
         System.out.println("List 2 -->"+l);
-        Collections.copy(li,l);
+        Collections.copy(li,l);//l got copied to li
         System.out.println(l);
         System.out.println(li);
 

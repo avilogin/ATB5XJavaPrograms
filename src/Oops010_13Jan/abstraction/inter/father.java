@@ -1,6 +1,7 @@
 package src.Oops010_13Jan.abstraction.inter;
 
-public interface father {
+public interface father
+{
     void loan1k();//need to create the body in different class as this is an interface
 
     static void print()

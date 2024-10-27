@@ -7,12 +7,14 @@ public class runner {
         Dog d = new Dog();
         d.bark();
 
+
         //call the method of hound class as the object is created for hound class
         Hound h = new Hound();
         h.bark();
 
         //call the method of hound class as the object is created for hound class
         Dog f = new Hound();
+
         f.bark();
 
 
