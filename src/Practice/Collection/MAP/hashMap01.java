@@ -17,11 +17,12 @@ public class hashMap01 {
 
         System.out.println(m);
 
+        System.out.println("----------KeySet()-----");
         for (Integer o : m.keySet())
         {
             System.out.println(o +" --> "+m.get(o));
         }
-        System.out.println("----------------------");
+        System.out.println("------------EntrySet()----------");
         for (Map.Entry e : m.entrySet())
         {
             System.out.println(e.getKey()+" --> "+e.getValue());

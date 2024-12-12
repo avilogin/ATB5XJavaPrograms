@@ -8,7 +8,7 @@ public class hashSet03 {
         s.add("Avijeet");
         s.add(1);
         s.add(true);
-        s.add(22.34);//can't have duplicate values
+        s.add(22.34);
         s.add(null);
 
         Iterator it = s.iterator();
